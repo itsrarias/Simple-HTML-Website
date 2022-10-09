@@ -1,0 +1,155 @@
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 87% 13%;
+  justify-content: center;
+  align-items: stretch;
+
+}
+
+.wrapper > div{
+  background: #595959;
+}
+
+.wrapper2{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 0em;
+
+}
+
+.wrapper2 > div{
+  background: #595959;
+}
+
+.side{
+  list-style: none;
+  color: #bfbfbf;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.box3{
+  grid-row: 1/7;
+}
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.order{
+  padding: 0.5em;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 15px;
+  border-width: thick;
+  text-align: center;
+}
+
+.wrapper2 > div:nth-child(3){
+  background: white;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper2 > div:nth-child(4){
+  background-image: url("assets/bg_offer.png");
+  background-size: cover;
+}
+
+.wrapper2 > div:nth-child(5){
+  background: white;
+}
+
+
+.tableoffers{
+  background-color: white;
+}
+
+.cook{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 1em;
+
+}
+
+.ctext{
+  padding-right: 3em;
+}
+
+.special{
+  display: grid;
+}
+
+.offers{
+  display: grid;
+  grid-template-columns: 20% 30% 20% 30%;
+
+  padding-left: 1.5em;
+  padding-bottom: 3em;
+  padding-right: 1.5em;
+
+}
+
+.special{
+  grid-column: 1/5;
+}
+
+.special2{
+  grid-column: 1/7;
+}
+
+.offers > div:nth-child(3),
+.offers > div:nth-child(5){
+  background: white;
+  margin-right: 25px;
+
+
+}
+
+
+.offers > div:nth-child(2),
+.offers > div:nth-child(4){
+  padding-top: 1em;
+  padding-left: 1em;
+  background: white;
+  padding-right: 2em;
+}
+
+.idk{
+  line-height: 0px;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.OT{
+  font-size: 1.5em;
+}
+
+.OP{
+  font-size: 1.5em;
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 2em;
+  grid-gap: 1em;
+}
+
+.contact{
+  display: grid;
+}
